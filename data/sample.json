@@ -1,0 +1,12 @@
+{
+  "project": "guardrails-gateway",
+  "resource": "policies",
+  "samples": [
+    {
+      "id": "gp1",
+      "name": "pii",
+      "rule": "block emails",
+      "action": "redact"
+    }
+  ]
+}
